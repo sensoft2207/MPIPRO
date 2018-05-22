@@ -1,0 +1,348 @@
+<resources>
+    <string name="app_name">MyInnerPharmacy</string>
+
+    <string name="my_self_talk">My Self Talk Topics</string>
+
+<!--Social login Key -->
+    <string name="facebook_app_id">937049286458536</string>
+    <string name="fb_login_protocol_scheme">fb937049286458536</string>
+    <string name="twitter_consumer_key">CAteIF6Rh5Su38BX6C4esYyGf</string>
+    <string name="twitter_consumer_secret">HOVn6GC3aOfVvud7Mv3nui8gifTPmMfMfBEkYjwSVh9A7mZySs</string>
+
+
+
+    <!--Error-->
+    <string name="no_internet">Oops! no Internet Connection</string>
+    <string name="ws_error">Oops! something went wrong</string>
+    <string name="menu_edit">Edit Profile</string>
+
+    <!--Disclaimer-->
+    <string name="disclaimer">DISCLAIMER</string>
+    <string name="disclaimer_text">This app does not dispense medical advice nor does it do diagnosis of any type. You are encouraged to be a well &#45; informed
+    consumer who works with your health professionals and prescribing physician before making
+    any change in medications or other health practices.</string>
+    <string name="disclaimer_accept_term">I accept terms and conditions</string>
+
+    <!--Sign Screen-->
+    <string name="signup">Sign up</string>
+    <string name="signin">Sign in</string>
+
+    <!--Login Screen-->
+    <string name="login_with">Login with</string>
+    <string name="email">Email Id</string>
+    <string name="password">Password</string>
+    <string name="forgot_password">Forgot Password&#63;</string>
+    <string name="login">Log in</string>
+    <string name="enter_email">Please enter email</string>
+    <string name="enter_password">Please enter password</string>
+    <string name="new_user_login">New User&#63; Click here for Signup</string>
+
+    <!--Forgot Password Screen-->
+
+    <string name="forgot_password_screen">FORGOT PASSWORD&#63;</string>
+    <string name="forgot_email">Email Address</string>
+    <string name="ok">OK</string>
+    <string name="enter_forgot_email">Please enter email address</string>
+
+
+    <!--Register Screen-->
+    <string name="full_name">Full Name</string>
+    <string name="dob">DOB</string>
+    <string name="gender">Gender</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="i_agree">I agreed to</string>
+    <string name="term_condition">terms &#38; conditions</string>
+    <string name="user_sign_in">Current user? Sign in</string>
+    <string name="select_gender">Select gender</string>
+
+    <string name="select_image">Please select image</string>
+    <string name="enter_full_name">Please enter full name</string>
+    <string name="enter_dob">Please select DOB</string>
+    <string name="enter_gender">Please enter gender</string>
+    <string name="enter_confirm_password">Please enter confirm password</string>
+    <string name="match_pass">Password and Confirm Password must be same</string>
+    <string name="select_term">Please select term &#38; condition</string>
+
+    <!--KeyText Screen-->
+    <string name="next">Next</string>
+    <string name="back">Back</string>
+    <string name="next_skip">Next or Skip</string>
+    <string name="KeyText">&#8221;This app helps you quickly improve your mental or emotional wellness,
+        level of personal empowerment and your physical well being. \n It helps you learn how to develop new
+        habits to be the best you can be.Through consistent self-awareness of how your body, mind and
+        emotions co-ordinate their functions and the implementation of the many prescriptions provided,
+        you will learn how to regulate your inner pharmacy to enhance the way you feel, focus and relate. \n
+        I addition to special tools and strategies to help you, the app also will remind you regularly to take
+        personal account of what you emotional state, and heart and breathing rate is as well as integrating
+        a special self awareness Pause to maximize your presence to embrace the power of the moment.&#8221;</string>
+
+    <!--Questionnair Screen-->
+    <!--<string name="ques_text">&#8221;Future development and improvement of this app please-->
+    <!--take a few moments to answer these questions so we can learn how to better serve our users&#8221;</string>-->
+
+    <string name="select_question">Please select question option</string>
+
+    <!--Question Level Screen-->
+    <string name="ques_level">What is the level of impact this issue is having on your life&#63;</string>
+
+    <!--UploadPic Screen-->
+    <string name="choose_pic_text">Please Choose a photo that shows you feeling good and healthy to act as a vivid reminder of what emotional state you now want to achieve</string>
+    <string name="choose_pic">Choose a Photo</string>
+    <string name="pause_tasks">Pause\nTask</string>
+    <!--After UploadPic Screen-->
+    <string name="advanced_wellness_development">Advanced Wellness Development</string>
+    <string name="uplifting_music">Uplifting\nPlaylist</string>
+    <string name="resource_journal">Resource\nJournal</string>
+    <string name="after_upload_pic_text">&#34;Choose an image that represents the mental or emotional state you want to achieve&#34;</string>
+    <string name="after_upload_choose">CHOOSE IMAGE FROM PHONE</string>
+    <string name="or">OR</string>
+    <string name="statistics">Statistics</string>
+    <string name="reminders">Reminders</string>
+
+    <!--Remind Frequency Screen-->
+    <string name="reminder">Reminders</string>
+    <string name="reminder_text">SET THE TIME INTERVALS FOR RECEIVING SELF AWARENESS REMINDER</string>
+    <string name="state_colibration">State Calibration</string>
+    <string name="wakeup_time">Wakeup Time</string>
+    <string name="sleeping_time">Sleeping Time</string>
+    <string name="heart_rate_monit">Heart Rate Monitor</string>
+    <string name="breathing_analysis">Breathing Analysis</string>
+    <string name="pause_task">Pause Task</string>
+    <string name="maintain">I suggest reminding yourself to self regulate at least three times a day to develop new habits of emotional welleness and empowerment </string>
+    <string name="done">Done</string>
+    <string name="final_value">&#40;1&#45;10&#41;hr</string>
+    <string name="hours">hr</string>
+
+    <!--Logout Screen-->
+    <string name="logout">LOGOUT</string>
+
+    <!--Navigation Menu-->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string-array name="nav_drawer_items">
+
+       <!-- <item>Rapid Response Prescription</item>
+        <item>Pause task</item>
+        <item>Current Prescription Request</item>
+        <item>State Calibration</item>
+        <item>Heart Rate Monitor</item>
+        <item>Breathing Analysis</item>
+        <item>Resource Journal</item>
+        <item>Uplifting Music</item>
+        <item>Advanced Wellness Development</item>
+        <item>Statistics</item>
+        <item>Reminder</item>-->
+
+        <item>New Prescription</item>
+        <item>Rapid Response Prescription</item>
+        <item>Key Components Summaries</item>
+        <item>Pause Task</item>
+        <item>Uplifting Playlist</item>
+        <item>State Calibration</item>
+        <item>Heart Rate Monitor</item>
+        <item>Breathing Analysis</item>
+        <item>Routine Tracking</item>
+        <item>Reminder</item>
+        <item>Resource Journal</item>
+        <item>My Self Talk Topics</item>
+
+    </string-array>
+
+    <string name="breathing_analysis_dialog">Are you sure want to complete this task or continue?</string>
+    <string name="breathing_analysis_titile"><u>Breathing Analysis</u></string>
+    <string name="breathing_analysis_steps">Perform following steps :-</string>
+    <string name="breathing_analysis_steps1">1 - Press Start</string>
+    <string name="breathing_analysis_steps2">2 - Perform your 5 times breath in and breath out process</string>
+    <string name="breathing_analysis_steps3">3 - Press Stop</string>
+    <string name="breathing_analysis_des">&#34;Regulating your breathing helps you improve the way you think and feel&#34;</string>
+    <string-array name="statistics_items">
+
+        <item>State Calibration</item>
+        <item>Heart Rate Monitor</item>
+        <!--<item>Breathing Analysis</item>-->
+        <item>Advanced Wellness Development</item>
+        <item>Self Talk Topics</item>
+        <item>Breathing Rates</item>
+
+    </string-array>
+
+    <array name="nav_drawer_icons">
+
+        <item>@mipmap/heart</item>
+        <item>@mipmap/heart</item>
+        <item>@mipmap/heart</item>
+        <item>@mipmap/heart</item>
+        <item>@mipmap/heart</item>
+        <item>@mipmap/heart</item>
+        <item>@mipmap/heart</item>
+        <item>@mipmap/heart</item>
+        <item>@mipmap/heart</item>
+        <item>@mipmap/heart</item>
+        <item>@mipmap/heart</item>
+        <item>@mipmap/heart</item>
+
+    </array>
+
+    <!--State Colibration Screen-->
+    <string name="state_calibration_home">STATE CALIBRATION</string>
+    <string name="state_calibration_home_title">Current Self Talk</string>
+    <string name="state_calibration_topic">What topic in your life are you most focused on right now&#44;
+     that is the major contributor to this state you are in&#63;</string>
+
+    <!--State Colibration Next Screen-->
+    <string name="state_calibration_home_next">What are you saying to yourself in your mind about this situation&#63;</string>
+    <string name="state_calibration_choose">Choose the number corresponding to your emotional state</string>
+    <string name="state_calibration_enthu">Enthusiastic</string>
+
+    <!--Pause Task Screen-->
+    <!--<string name="pause">Pause Task</string>-->
+    <string name="pause">Pause</string>
+    <string name="pause_text">Please pause for a few moments to give yourself an opportunity to
+    re&#45;calibrate your mental and emotional state</string>
+    <string name="pause_choose">Choose one or more of these prescriptions that you feel would be most helpful now</string>
+    <string name="pause_create">Create Your Own Pause Reminder</string>
+    <string name="pause_title">Title</string>
+    <string name="pause_add_image">Add image</string>
+    <string name="pause_add_file">Add audio File</string>
+    <string name="pause_add_video">Add video File</string>
+    <string name="enter_pause_title">Please select title</string>
+    <string name="enter_pause_add_image">Please select add image</string>
+    <string name="enter_pause_add_file">Please select add audio/video file</string>
+    <string name="pause_add_text">Add special images or statements you tell yourself that help you stop&#59;
+    take a breath and be mindful of the present moment BEFORE speaking or taking action</string>
+
+    <!--Advanced Wellnmess Screen-->
+    <string name="advanced_wellness">Track Your Daily Routines</string>
+    <string name="presc_cabinet">Prescription cabinet</string>
+    <string name="hour_sleep">Hours of sleep (Half hour)</string>
+    <string name="sugary_drunk">Sugary drinks drank&#40;8 oz. glasses&#41;</string>
+    <string name="minuts_spent">Minutes spent</string>
+    <string name="play">Play</string>
+    <string name="play_routin">Play (Half hour)</string>
+    <string name="date">Date</string>
+    <string name="exercise">Exercise (Half hour)</string>
+    <string name="stillness">Stillness (Half hour)</string>
+    <string name="minutes">Minutes in front of a screen</string>
+    <string name="tv">TV (Half hour)</string>
+    <string name="computer">Computer (Hour)</string>
+    <string name="smart_phone">Smart phone (Hour)</string>
+    <string name="portions">Servings of fruits (items)</string>
+    <string name="portions_of">Servings of veggies (items)</string>
+    <!--<string name="add_graph">Add to your graph</string>-->
+    <string name="add_graph">Enter todays numbers</string>
+    <string name="skip_one"><u>SKIP >></u></string>
+
+    <string name="enter_hours_sleep">Please enter hours of sleep</string>
+    <string name="enter_sugary_drinks">Please enter the number of sugary drinks drank</string>
+    <string name="enter_play">Please enter minutes spent for play</string>
+    <string name="enter_exercise">Please enter minutes spent for exercise</string>
+    <string name="enter_stillness">Please enter minutes spent for stillness</string>
+    <string name="enter_tv">Please enter minutes spent for television</string>
+    <string name="enter_computer">Please enter minutes spent for computer</string>
+    <string name="enter_phone">Please enter minutes spent for smart phone</string>
+    <string name="enter_fruits">Please enter servings of fruits</string>
+    <string name="enter_veggies">Please enter servings of veggies</string>
+
+
+    <!--Rapid Response Screen-->
+    <string name="repid_response">Rapid Response Prescriptions</string>
+    <string name="touch_bottle">Touch Bottle to Choose</string>
+
+    <!--Advance Prescription Screen-->
+
+    <string name="advance_pres">Advance Prescription</string>
+    <string name="your_pres">Your Prescription</string>
+    <string name="relax_video">RELAXATION VIDEO</string>
+    <string name="relax_audio">RELAXATION AUDIO</string>
+    <string name="relax_text">RELAXATION TEXT NOTE</string>
+
+    <!--Prescription Step Screen-->
+
+    <string name="pres_prep">Prescription Preparation</string>
+    <string name="pres_prep_text">Chart The Key Components of Your </string>
+    <string name="state_coli">STATE CALIBRATION</string>
+    <string name="breath_any">Breathing Analysis</string>
+    <string name="heart_rate">HEART RATE MONITOR</string>
+    <string name="start">Start</string>
+
+    <!--Heart Rate Screen-->
+
+    <string name="skip">SKIP &#187;</string>
+    <string name="heart_process">Heart Rate Monitor Process</string>
+    <string name="heart_rate_text">Heart Rate Monitor uses your device\'s
+    camera to measure your heart rate. Put your finger tip on back camera lens to start&#44;
+        as you see in this picture.</string>
+
+    <!--Rapid Response Prescription Screen-->
+
+    <string name="rapid_response">Rapid Response Prescriptions</string>
+    <string name="addresourece_descri_edittext_hint">Describe Specifics of What You Did and How</string>
+    <!--Medical Cabinets Screen-->
+    <string name="Prescription">New Prescription</string>
+
+    <!--Add Resource Journal -->
+
+    <string name="add_description">Description</string>
+    <string name="add_rs">Attach audio file (optional)</string>
+    <string name="audio_record">Record Audio Reminder</string>
+    <string name="enter_title">Please enter title</string>
+    <string name="enter_desc">Please enter description</string>
+    <string name="select_audio_file">Please select audio file &#44; audio recording</string>
+
+    <!--Resource Journal Detail-->
+
+    <string name="audio_dscr_resource_journal_detail">Audio File : </string>
+    <!--<string name="description_resource_journal_detail">Describe Specifics of What You Did\nand how :   </string>-->
+    <string name="description_resource_journal_detail">Description</string>
+    <!--<string name="title_resource_journal_detail">About Who\nor what?</string>-->
+    <string name="title_resource_journal_detail">Title</string>
+    <string name="rj_resource_journal_detail">Resource Journal</string>
+    <string name="rj_resource_journal_describe">Describe Specifics of What you Did and How :</string>
+    <!--<string name="md_resource_journal_detail">My Dead`s</string>-->
+    <string name="md_resource_journal_detail">My Self Talk Topics</string>
+    <string name="md_resource_journal_text">Your Resource Journal is for you to make note of how you do your best. These are some basic questions to consider and answer :</string>
+    <string name="md_resource_journal_text_1">-> What were the most important elements that helped you be in the right emotional state to succeed?</string>
+    <string name="md_resource_journal_text_2">-> What strategies did you effectively use to get things to turn out the way it did?</string>
+    <string name="md_resource_journal_text_3">-> What your self talk,tone of voice and  posture when you effectively communicated?</string>
+    <string name="md_resource_journal_text_4">-> What was your internal attitude and vision for the outcome?</string>
+
+
+    <string name="media_back"><![CDATA[>]]></string>
+    <string name="media_rewind"><![CDATA[<<]]></string>
+    <string name="media_forward"><![CDATA[>>]]></string>
+    <string name="media_pause">||</string>
+
+
+    <!--Current Prescription Request-->
+
+    <string name="current_pres_req">My\nEmotional Chart</string>
+
+    <!--Edit Profile -->
+    <string name="edit_save_change">Save Changes</string>
+
+
+    <!--Add Prescription-->
+
+    <string name="add_audio">Add audio File</string>
+    <string name="add_video">Add video File</string>
+    <string name="add_text">Add text File</string>
+    <string name="add_pres_video_title">Relaxation Video</string>
+    <string name="add_pres_audio_title">Relaxation Audio</string>
+    <string name="add_pres_text_title">Relaxation Text</string>
+    <string name="add_text_file">Add text</string>
+    <string name="enter_problem">Enter your problem</string>
+    <!--Add UpliftingMusic -->
+    <string name="add_playlist_audio">Add Playlist Audio</string>
+    <string name="go_to_heart_rate">Go To Heart Rate</string>
+    <!-- My Deads Splash Screen -->
+    <string name="intro_deads">Whatever the emtional tone of your\n self tlk.you create biochemcals within yourself to experience</string>
+    <!-- Heart Rate Monitore -->
+    <string name="heart_text"><u>Heart Rate Monitor</u></string>
+
+    <string name="prescription_cabinet">Prescription Cabinet</string>
+    <string name="my_emotional_chart">Key Components Summaries</string>
+    <string name="routine_tracking">Routine Tracking</string>
+    <string name="heart_rate_">Heart Rate</string>
+
+</resources>

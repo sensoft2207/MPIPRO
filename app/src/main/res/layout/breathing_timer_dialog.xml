@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:orientation="vertical"
+        android:background="@drawable/main_border">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <com.mxi.myinnerpharmacy.font.BoldMyTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="MIP"
+                android:gravity="center"
+                android:textSize="23sp"
+                android:paddingTop="10dp"
+                android:textColor="@color/color_black"/>
+
+            <com.mxi.myinnerpharmacy.font.RegularMyTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/breathing_analysis_dialog"
+                android:gravity="center"
+                android:textSize="16sp"
+                android:paddingTop="10dp"
+                android:textColor="@color/color_black"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/ln_done"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:background="@drawable/right_top_border">
+
+                <com.mxi.myinnerpharmacy.font.BoldMyTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Done"
+                    android:gravity="center"
+                    android:textSize="18sp"
+                    android:paddingTop="10dp"
+                    android:textColor="#32babc"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ln_continue"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:background="@drawable/left_top">
+
+                <com.mxi.myinnerpharmacy.font.BoldMyTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Continue"
+                    android:gravity="center"
+                    android:textSize="18sp"
+                    android:paddingTop="10dp"
+                    android:textColor="#32babc"/>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

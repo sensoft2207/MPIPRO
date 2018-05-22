@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="5dp">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardElevation="5dp"
+        app:cardCornerRadius="5dp">
+
+        <LinearLayout
+            android:id="@+id/ln_cabinet_click"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="7"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:paddingLeft="5dp">
+
+                <com.mxi.myinnerpharmacy.font.RegularMyTextView
+                    android:id="@+id/tv_headline_one"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="shjhjshhgk"
+                    />
+
+                <com.mxi.myinnerpharmacy.font.RegularMyTextView
+                    android:id="@+id/tv_headline_two"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="shjhjshhgk"
+                    android:paddingTop="8dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/iv_video_cabinet"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/vidioicon"/>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

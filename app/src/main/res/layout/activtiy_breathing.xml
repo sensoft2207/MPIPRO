@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@mipmap/app_bg"
+    android:layout_height="match_parent">
+
+    <include
+        layout="@layout/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_weight="3.60"
+            android:gravity="right"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/tv_skip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/skip_one"
+                android:textSize="17dp"
+                android:textColor="#ffffff"
+                android:gravity="right" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_weight="3.45"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+            <com.mxi.myinnerpharmacy.font.RegularMyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/breathing_analysis_titile"
+                android:textAlignment="center"
+                android:textColor="@color/color_white"
+                android:textSize="21dp" />
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_weight="3.60"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingLeft="45dp"
+                android:paddingRight="45dp"
+                android:text="@string/breathing_analysis_des"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="14dp">
+                </TextView>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_weight="1.25"
+            android:orientation="vertical"
+            android:padding="15dp"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_weight="0.5"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/breathinganalysisimg"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_weight="0.5"
+                android:orientation="vertical"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_weight="0.10"
+                    android:layout_height="match_parent"
+                    android:paddingTop="5dp"
+                    android:orientation="vertical">
+
+                    <com.mxi.myinnerpharmacy.font.BoldMyTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/breathing_analysis_steps"
+                        android:gravity="center|left"
+                        android:textColor="@color/color_white"
+                        android:textSize="15dp" />
+
+                    <com.mxi.myinnerpharmacy.font.RegularMyTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/breathing_analysis_steps1"
+                        android:gravity="center|left"
+                        android:textColor="@color/color_white"
+                        android:textSize="13dp" />
+
+                    <com.mxi.myinnerpharmacy.font.RegularMyTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/breathing_analysis_steps2"
+                        android:gravity="center|left"
+                        android:textColor="@color/color_white"
+                        android:textSize="13dp"
+                        android:paddingTop="3dp"/>
+
+                    <com.mxi.myinnerpharmacy.font.RegularMyTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/breathing_analysis_steps3"
+                        android:gravity="center|left"
+                        android:textColor="@color/color_white"
+                        android:textSize="13dp"
+                        android:paddingTop="3dp"/>
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_weight="0.25"
+                    android:gravity="center"
+                    android:layout_height="match_parent">
+                    <Button
+                        android:id="@+id/tv_1"
+                        android:layout_width="250dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="NEXT"
+                        android:background="@drawable/rounded_button"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@color/color_white" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</FrameLayout>
+
+
+</LinearLayout>

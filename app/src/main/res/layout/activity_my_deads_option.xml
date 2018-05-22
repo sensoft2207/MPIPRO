@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:id="@+id/activity_my_deads_option"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/app_bg"
+    tools:context="com.mxi.myinnerpharmacy.activity.MyDeadsOptionActivity">
+
+    <include
+        layout="@layout/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <com.mxi.myinnerpharmacy.font.BoldMyTextView
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:textColor="@color/color_white"
+        android:text="My current self talk topics in the situation I am currently considering: "
+        android:textSize="18dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="270dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center|bottom"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/white_rectangles">
+
+        <com.mxi.myinnerpharmacy.font.RegularMyTextView
+            android:id="@+id/tv_1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="Demand"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/color_white" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="270dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center|bottom"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/white_rectangles">
+
+        <com.mxi.myinnerpharmacy.font.RegularMyTextView
+            android:id="@+id/tv_2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="Expectation"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/color_white" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="270dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center|bottom"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/white_rectangles">
+
+        <com.mxi.myinnerpharmacy.font.RegularMyTextView
+            android:id="@+id/tv_3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="Attachment"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/color_white" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="270dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center|bottom"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/white_rectangles">
+
+        <com.mxi.myinnerpharmacy.font.RegularMyTextView
+            android:id="@+id/tv_4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="Desire"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/color_white" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="270dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center|bottom"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/white_rectangles">
+
+        <com.mxi.myinnerpharmacy.font.RegularMyTextView
+            android:id="@+id/tv_5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="Judgment"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/color_white" />
+    </LinearLayout>
+</LinearLayout>

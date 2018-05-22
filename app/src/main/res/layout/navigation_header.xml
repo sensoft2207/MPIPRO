@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ll_profile"
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    android:background="@color/color_nav_back"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    app:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/iv_profile_image"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_gravity="center"
+            android:padding="10dp"
+            android:src="@mipmap/uploadpic"
+            app:civ_border_color="#FFF"
+            app:civ_border_width="2dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <com.mxi.myinnerpharmacy.font.BoldMyTextView
+                android:id="@+id/tv_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|left"
+                android:layout_weight="1"
+                android:padding="10dp"
+                android:text="User Name"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@android:color/white" />
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.mxi.myinnerpharmacy.font.BoldMyTextView
+                    android:id="@+id/tv_subscriberday"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|left"
+                    android:layout_weight="1"
+                    android:padding="10dp"
+                    android:text="User Name"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@android:color/white"
+                    android:visibility="invisible"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center|left"
+                    android:paddingLeft="10dp">
+
+                    <com.mxi.myinnerpharmacy.font.RegularMyTextView
+                        android:id="@+id/tv_sub_btn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="35dp"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:background="@color/color_green"
+                        android:gravity="center"
+                        android:text="Subscribe Now"
+                        android:padding="8dp"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="@color/color_nav_back"
+                        android:visibility="invisible"/>
+
+                </LinearLayout>
+
+
+
+            </FrameLayout>
+
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.01dp"
+        android:layout_marginBottom="6dp"
+        android:background="@color/color_divider" />
+
+</LinearLayout>

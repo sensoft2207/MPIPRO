@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1098781270020",
+    "firebase_url": "https://myip-android.firebaseio.com",
+    "project_id": "myip-android",
+    "storage_bucket": "myip-android.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1098781270020:android:369233f49b18e0b7",
+        "android_client_info": {
+          "package_name": "com.mxi.myinnerpharmacy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1098781270020-udul3791hs1kfmadgangme2qh6rl13q7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mxi.myinnerpharmacy",
+            "certificate_hash": "babb12b7641ad8b0ae0653040fb119f3dd328b62"
+          }
+        },
+        {
+          "client_id": "1098781270020-ifdq3jckgtmitc3rgtde846bq6onr9ca.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDWshV5lZhtUyViJk6vmgKLc90brA1yrOA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1098781270020-ifdq3jckgtmitc3rgtde846bq6onr9ca.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

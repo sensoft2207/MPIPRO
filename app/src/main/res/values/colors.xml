@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#22216D</color>
+    <color name="colorPrimaryDark">#18175B</color>
+    <color name="colorAccent">#8E93BE</color>
+
+    <color name="color_white">#FFFFFF</color>
+    <color name="color_black">#000000</color>
+    <color name="color_divider">#40FFFFFF</color>
+    <color name="color_transparent_grey">#a13E3E49</color>
+    <color name="color_transparent">#0000</color>
+    <color name="color_forgot_pass_text">#383870</color>
+    <color name="color_green">#5CBE4F</color>
+    <color name="color_nav_tool">#22216D</color>
+    <color name="color_nav_back">#18175B</color>
+    <color name="color_colibration_scroll">#0A133A</color>
+    <color name="color_colibration_text">#3E3E49</color>
+    <color name="color_devider_pausetask">#8E93BE</color>
+
+    <color name="color_card_background">#c8cbe8</color>
+
+    <color name="color_blue">#3396ff</color>
+    <color name="color_red">#e1061f</color>
+
+
+    <color name="color_breathing_Analysis">#A88045</color>
+    <color name="color_my_Emotional_chart">#FF0000</color>
+    <color name="color_heart_rate">#CE8AB1</color>
+    <color name="color_resource_journal">#D23F7F</color>
+    <color name="color_new_prescription">#2DABFF</color>
+    <color name="color_pause_task">#00FF00</color>
+    <color name="color_prescription_cabin">#CCB993</color>
+    <color name="color_rapid_response">#E37911</color>
+    <color name="color_remainder">#8A89FF</color>
+    <color name="color_self_talk">#FFFF00</color>
+    <color name="color_state_calibration">#690C80</color>
+    <color name="color_uplifting_music">#FFBE0D</color>
+    <color name="color_wellness_development">#6B7E3E</color>
+
+
+
+</resources>

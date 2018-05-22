@@ -1,0 +1,611 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ll_linear"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/app_bg"
+    android:orientation="vertical"
+    tools:context="com.mxi.myinnerpharmacy.fragment.Home">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="7"
+            android:orientation="vertical"
+            >
+
+            <com.mxi.myinnerpharmacy.AutoScrollViewPager
+                android:id="@+id/pager_introduction"
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:fitsSystemWindows="true" />
+
+            <com.viewpagerindicator.CirclePageIndicator
+                android:id="@+id/indicator"
+                android:layout_width="fill_parent"
+                android:layout_height="25dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:gravity="bottom"
+                app:centered="true"
+                app:fillColor="#ffffff"
+                app:pageColor="#87a1ed"
+                app:snap="false" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:weightSum="3"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="5dp"
+            android:layout_weight="2.2">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="2dp"
+                android:layout_weight="1"
+                android:background="@drawable/ract_new_priscription"
+                android:paddingBottom="5dp">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/tv_main_new_prescription"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="@string/Prescription"
+                        android:textAlignment="center"
+                        android:textColor="#fff"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_gravity="right|bottom"
+                        android:layout_marginBottom="2dp"
+                        android:layout_marginRight="2dp"
+                        android:src="@drawable/new_priscription36x36" />
+                </FrameLayout>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="2dp"
+                android:layout_weight="1"
+                android:background="@drawable/ract_prescription_cabinate"
+                android:paddingBottom="5dp">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/tv_main_prescription_cabinet"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="@string/prescription_cabinet"
+                        android:textAlignment="center"
+                        android:textColor="#fff"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_gravity="right|bottom"
+                        android:layout_marginBottom="1dp"
+                        android:layout_marginRight="2dp"
+                        android:src="@drawable/priscription_cabinate" />
+                </FrameLayout>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="2dp"
+                android:layout_weight="1"
+                android:background="@drawable/ract_rapid_response"
+                android:paddingBottom="5dp">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/tv_main_rapid_response"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="@string/rapid_response"
+                        android:textAlignment="center"
+                        android:textColor="#fff"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_gravity="right|bottom"
+                        android:layout_marginBottom="1dp"
+                        android:layout_marginRight="2dp"
+                        android:src="@drawable/rapid_priscription" />
+                </FrameLayout>
+
+            </LinearLayout>
+
+            <!--<LinearLayout-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_weight="2"-->
+
+            <!--android:layout_marginTop="5dp"-->
+            <!--android:layout_marginLeft="5dp"-->
+            <!--android:layout_height="match_parent">-->
+
+
+            <!--<TextView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:background="@drawable/white_rectangle"-->
+            <!--android:text="hello"-->
+            <!--android:textAlignment="center"-->
+            <!--android:gravity="center"-->
+            <!--android:textColor="#fff"-->
+            <!--/>-->
+
+            <!--</LinearLayout>-->
+
+
+        </LinearLayout>
+        <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_weight="2"-->
+        <!--android:paddingLeft="15dp"-->
+        <!--android:paddingRight="15dp"-->
+        <!--android:layout_height="0dp">-->
+
+        <!--<LinearLayout-->
+        <!--android:layout_width="0dp"-->
+        <!--android:layout_weight="2"-->
+        <!--android:paddingRight="4dp"-->
+        <!--android:background="@drawable/orange_rectangle"-->
+        <!--android:layout_height="match_parent">-->
+
+
+        <!--<TextView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!---->
+        <!--android:text="@string/Prescription"-->
+        <!--android:textAlignment="center"-->
+        <!--android:gravity="center"-->
+        <!--android:textStyle="bold"-->
+        <!--android:textColor="#fff"-->
+        <!--/>-->
+
+        <!--</LinearLayout>-->
+
+        <!--<LinearLayout-->
+        <!--android:layout_width="0dp"-->
+        <!--android:layout_weight="2"-->
+        <!--android:background="@drawable/white_rectangle"-->
+        <!--android:layout_marginLeft="5dp"-->
+        <!--android:layout_height="match_parent">-->
+
+
+        <!--<TextView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!---->
+        <!--android:text="@string/my_self_talk"-->
+        <!--android:textAlignment="center"-->
+        <!--android:textStyle="bold"-->
+        <!--android:gravity="center"-->
+        <!--android:textColor="#fff"-->
+        <!--/>-->
+
+        <!--</LinearLayout>-->
+
+
+        <!--</LinearLayout>-->
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="5dp"
+            android:layout_weight="2.2"
+            android:weightSum="2">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/ract_my_emotional_chart">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/tv_main_my_emotional_chart"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="@string/my_emotional_chart"
+                        android:textAlignment="center"
+                        android:textColor="#fff"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_gravity="right|bottom"
+                        android:layout_marginBottom="2dp"
+                        android:layout_marginRight="2dp"
+                        android:src="@drawable/emotionalchart36x36" />
+                </FrameLayout>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/ract_uplifting_music">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/tv_main_uplifting_music"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="@string/uplifting_music"
+                        android:textAlignment="center"
+                        android:textColor="#fff"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_gravity="right|bottom"
+                        android:layout_marginBottom="4dp"
+                        android:layout_marginRight="4dp"
+                        android:src="@drawable/upliftingplaylist36x36" />
+                </FrameLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="5dp"
+            android:layout_weight="2.2"
+            android:weightSum="3">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+
+                android:layout_weight="1.1"
+                android:background="@drawable/ract_state_calibration">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/tv_main_state_calibration"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="@string/state_colibration"
+                        android:textAlignment="center"
+                        android:textColor="#fff"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_gravity="right|bottom"
+                        android:layout_marginBottom="2dp"
+                        android:layout_marginRight="2dp"
+                        android:src="@drawable/state_calibration" />
+                </FrameLayout>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="0.8"
+                android:background="@drawable/ract_pause_task">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/tv_main_pause_task"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="@string/pause_task"
+                        android:textAlignment="center"
+                        android:textColor="#fff"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_gravity="right|bottom"
+                        android:layout_marginBottom="2dp"
+                        android:layout_marginRight="2dp"
+                        android:src="@drawable/pausetask36x36" />
+                </FrameLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1.1"
+                android:background="@drawable/ract_wellness_development">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/tv_main_routine_tracking"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="@string/routine_tracking"
+                        android:textAlignment="center"
+                        android:textColor="#fff"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_gravity="right|bottom"
+                        android:layout_marginBottom="2dp"
+                        android:layout_marginRight="2dp"
+                        android:src="@drawable/wellness_devlopment" />
+                </FrameLayout>
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="5dp"
+            android:layout_weight="2.2"
+            android:weightSum="2">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/ract_self_talk">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/tv_main_my_self_talk"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="@string/my_self_talk"
+                        android:textAlignment="center"
+                        android:textColor="#fff"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_gravity="right|bottom"
+                        android:layout_marginBottom="2dp"
+                        android:layout_marginRight="2dp"
+                        android:src="@drawable/self_talk" />
+                </FrameLayout>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/ract_breathing_analysis">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/tv_main_breathing_analysis"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="@string/breathing_analysis"
+                        android:textAlignment="center"
+                        android:textColor="#fff"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_gravity="right|bottom"
+                        android:layout_marginBottom="2dp"
+                        android:layout_marginRight="2dp"
+                        android:src="@drawable/breathinganalysis36x36" />
+                </FrameLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="5dp"
+            android:layout_weight="2.2"
+            android:weightSum="3">
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/ract_reminder">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/tv_main_reminder"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="@string/reminder"
+                        android:textAlignment="center"
+                        android:textColor="#fff"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_gravity="right|bottom"
+                        android:layout_marginBottom="2dp"
+                        android:layout_marginRight="2dp"
+                        android:src="@drawable/reminder36x36" />
+                </FrameLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/ract_heart_rate">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/tv_main_heart_rate"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="@string/heart_rate_"
+                        android:textAlignment="center"
+                        android:textColor="#fff"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_gravity="right|bottom"
+                        android:layout_marginBottom="2dp"
+                        android:layout_marginRight="2dp"
+                        android:src="@drawable/heart_rate36x36" />
+                </FrameLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/ract_resource_journal">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/tv_main_resource_journal"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="@string/resource_journal"
+                        android:textAlignment="center"
+                        android:textColor="#fff"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_gravity="right|bottom"
+                        android:layout_marginBottom="2dp"
+                        android:layout_marginRight="2dp"
+                        android:src="@drawable/journel36x36" />
+                </FrameLayout>
+            </LinearLayout>
+            <!--<LinearLayout-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_weight="2"-->
+
+            <!--android:layout_marginTop="5dp"-->
+            <!--android:layout_marginLeft="5dp"-->
+            <!--android:layout_height="match_parent">-->
+
+
+            <!--<TextView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:background="@drawable/white_rectangle"-->
+            <!--android:text="hello"-->
+            <!--android:textAlignment="center"-->
+            <!--android:gravity="center"-->
+            <!--android:textColor="#fff"-->
+            <!--/>-->
+
+            <!--</LinearLayout>-->
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

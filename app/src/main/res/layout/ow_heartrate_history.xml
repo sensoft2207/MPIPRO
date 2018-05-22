@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingTop="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:layout_gravity="center">
+
+                <com.mxi.myinnerpharmacy.font.RegularMyTextView
+                    android:id="@+id/tv_date"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:text="Date"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/color_white" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:layout_gravity="center">
+
+                <com.mxi.myinnerpharmacy.font.RegularMyTextView
+                    android:id="@+id/tv_time"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:text="Time"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/color_white" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_gravity="center">
+
+                <com.mxi.myinnerpharmacy.font.RegularMyTextView
+                    android:id="@+id/tv_breathing_rate"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_weight="1"
+
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/color_white" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:layout_gravity="center">
+
+                <com.mxi.myinnerpharmacy.font.RegularMyTextView
+                    android:id="@+id/tv_prescription"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center|left"
+                    android:layout_weight="1"
+                    android:text="Prescription"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/color_white" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:layout_gravity="center">
+
+                <com.mxi.myinnerpharmacy.font.RegularMyTextView
+                    android:id="@+id/tv_self_talk"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:text=" Self talk"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/color_white" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:layout_gravity="center">
+
+                <com.mxi.myinnerpharmacy.font.RegularMyTextView
+                    android:id="@+id/tv_heartrate"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:text="Heart Rate"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/color_white" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:layout_gravity="center">
+
+                <com.mxi.myinnerpharmacy.font.RegularMyTextView
+                    android:id="@+id/tv_state_calibration"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:text=" State calibration"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/color_white" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <!-- <View
+         android:layout_width="match_parent"
+         android:layout_height="1dp"
+         android:layout_marginLeft="5dp"
+         android:layout_marginRight="5dp"
+         android:background="@color/color_white" />-->
+
+</LinearLayout>
